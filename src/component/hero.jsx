@@ -16,8 +16,6 @@ import Typed from "react-typed";
             <a href="#" className="bg-green-600 p-2 px-4 mt-3 font-bold rounded-lg hover:bg-green-800 hover:text-black text-md  sm:text-lg md:text-xl">Get Started</a>
         </div>
     </div>
-    
-    
     </>
 }
 
