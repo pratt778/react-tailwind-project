@@ -7,15 +7,15 @@ const Navbar = ()=>{
         setList(!list)
     }
     return <>
-    <div className="header flex justify-between max-w-[1240px] mx-auto sticky top-0">
+    <div className="header flex justify-between max-w-[1240px] mx-auto h-fit sm:pt-4">
         <div className="logo p-4">
-            <h1 className="font-bold text-green-600 text-xl">REACT.</h1>
+            <h1 className="font-bold text-green-600 text-xl sm:text-2xl">REACT.</h1>
         </div>
         <div className="toggle p-2 text-xl md:hidden" onClick={handlenav}>
             {list?<i className="ri-close-fill"></i>:<i className="ri-menu-line"></i>}
         </div>
         <div className="nav hidden sm:hidden md:block p-4 pr-4">
-            <ul className="nav-lists md:flex gap-6 ">
+            <ul className="nav-lists md:flex gap-6 md:text-lg">
                 <li className="navitems"><a href="" className="nav-links font-bold">Home</a></li>
                 <li className="navitems"><a href="" className="nav-links font-bold">About</a></li>
                 <li className="navitems"><a href="" className="nav-links font-bold">Feature</a></li>
