@@ -3,15 +3,16 @@ import  Hero  from "./component/hero";
 import Analytics from "./component/analytics";
 import News from "./component/newsletter";
 import Cards from "./component/cards";
+import Footer from "./component/footer";
 const App = ()=>{
   return <>
-  <div>
+  
   <Navbar/>
   <Hero/>
   <Analytics/>
   <News/>
   <Cards/>
-  </div>
+  <Footer/>
   </>
 }
 

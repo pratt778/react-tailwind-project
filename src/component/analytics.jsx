@@ -4,7 +4,7 @@ const Analytics = () => {
     return <>
         <div className="a-container w-full bg-white p-6 flex items-center">
             <div className="elements grid gap-2 items-center md:grid-cols-2 max-w-[1200px] mx-auto">
-                <div className="img m-auto w-[300px] sm:w-[450px]">
+                <div className="img m-auto w-[90%] sm:w-[450px]">
                     <img src={Laptop} alt="" />
                 </div>
                 <div className="info text-black flex flex-col items-center md:items-start gap-2 sm:gap-3">
